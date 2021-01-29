@@ -5,14 +5,14 @@ import os
 import re
 
 
-class FirestoneStorageClient:
+class FireBaseStorageClient:
     """
-    A class to represent a Google firestone storage client.
+    A class to represent a Google firebase storage client.
 
     Attributes
     ----------
     bucket : str
-        FireStone bucket e.g "my-application.appspot.com"
+        Firebase bucket e.g "my-application.appspot.com"
     folder : str
         Folder name in bucket. Default value None
 
